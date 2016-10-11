@@ -1,1 +1,2 @@
-1.[[osx/applescript]]
+## Table of contents
+* [[osx/applescript]]
