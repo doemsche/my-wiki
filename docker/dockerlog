@@ -1,0 +1,1 @@
+docker run --name my-wiki -v `pwd`:/wiki -p 4567:80 gollum
