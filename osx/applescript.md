@@ -1,4 +1,13 @@
 ## Apple Scripts
+  * [Delay Execution](#apple-scripts_delay-execution)
+  * [Login Script](#apple-scripts_login-script)
+  * [Chrome Kisok](#apple-scripts_chrome-kiosk-with-keyboard)
+  * [Hide Mouse Cursorcerer](#apple-scripts_cursorcerer-hide-mouse)
+  * [Kill App](#apple-scripts_kill-app)
+  * [Open App](#apple-scripts_open-app)
+
+
+
 ### Delay Execution
 ```applescript
 do shell script "/bin/sleep #{AMOUNT_IN_SECONDS}"
