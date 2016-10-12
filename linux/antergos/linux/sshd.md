@@ -11,7 +11,7 @@ sudo pacman -S openssh
 sudo systemctl enable sshd.service
 
 #connect to client
-ssh ${USER}@${HOST}
+ssh #{USER}@#{HOST}
 
 ```
 
