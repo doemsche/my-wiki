@@ -48,3 +48,24 @@ do shell script "ps -ef | grep #{APPNAME} | grep -v grep | awk '{print $2}' | xa
 ```applescript
 do shell script "open '#{ABSOLUTE_PATH_TO_APP}'"
 ```
+
+### Close All Windows
+(Example Close Terminal after Power Out)
+```applescript
+tell application "Terminal"
+  activate
+end tell
+
+do shell script "/bin/sleep 3"
+
+tell application "Terminal"
+  close every window
+end tell
+
+do shell script "/bin/sleep 3"
+
+tell application "Terminal"
+  activate
+  do script "$HOME/login.sh"
+end tell
+```
