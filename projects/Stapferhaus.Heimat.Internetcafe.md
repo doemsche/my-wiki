@@ -1,0 +1,1 @@
+/Users/dschlaepfer/Projects/stapferhaus/Stapferhaus.Heimat.Internetcafe/Readme.md
