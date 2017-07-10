@@ -5,14 +5,14 @@ Allow or restrict access to IP-Addresses or ranges.
 Application-Level Firewalls make deep packet inspection.
 
 #### Ingress/Inbound Filtering.
-![](images/inbound.png)
+![](_images/inbound.png)
 
 #### Egress/Outbound Filtering. 
-![](images/outbound.png)
+![](_images/outbound.png)
 http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 
 #### Network Isolation
-![](images/networkisolation.png)
+![](_images/networkisolation.png)
 
 #### Host-Based Firewalls
 Windows-Firewall (or Commodo)
@@ -29,7 +29,7 @@ Filter traffic from LAN to WAN and vice versa.
 ACL to accept or reject traffic based on Port, Protocol and Address.
 Could sit on the router (custom firmware)
 **Problem** => Allowed open ports communicate out => provides no outbound protection => Good Networkfirewalls can work on the Application level and make the deep packet inspection.
-![](images/networkfirewall.png.png)
+![](_images/networkfirewall.png.png)
 
 #### Terms and Rules
 Main Rule => Deny all

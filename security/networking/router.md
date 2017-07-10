@@ -2,7 +2,7 @@
 
 #### Router
 Router is a term for a collection of components such as:
-![](images/router.png)
+![](_images/router.png)
 Services on Routers:
 -DHCP
 -DNS

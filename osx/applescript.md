@@ -49,6 +49,17 @@ do shell script "ps -ef | grep #{APPNAME} | grep -v grep | awk '{print $2}' | xa
 do shell script "open '#{ABSOLUTE_PATH_TO_APP}'"
 ```
 
+### Open Electron App
+```applescript
+-- make sure all running instances of ${App} are killed before opening the App again => this is due to the power failure starts of MacMini's
+
+do shell script "ps -ef | grep #{APPNAME} | grep -v grep | awk '{print $2}' | xargs kill"
+
+do shell script "/bin/sleep 5"
+
+tell application "${PATH_TO_APP}" to launch
+```
+
 ### Close All Windows
 (Example Close Terminal after Power Out)
 ```applescript

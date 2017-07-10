@@ -46,7 +46,7 @@ cowpatty
 reaver
 fern wifi cracker
 
-### Wifi Security Sternghtening
+### Wifi Security Strenghtening
 
 #### Isolation
 Wireless Networks should be less trusted than wired networks.
@@ -70,4 +70,3 @@ Separate different SSID's with different subnets.
 The Administrative burden is big.
 
 -Limit the Wifi Connections that a hostpot makes
-

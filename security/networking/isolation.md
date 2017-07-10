@@ -10,7 +10,7 @@ If a device on a LAN wants to connect to another device on the LAN there is an A
 arp has no authentication and therefore is vulnerable. 0 security.
 
 #### Isolation
-![](images/isolation.png)
+![](_images/isolation.png)
 DMZ (Demilitarized Zone) => Devices for Port Forwarding (Webserver, Synology, IP Cam) 
 
 VLANS => Logical Separation => VLANS work at Layer2

@@ -29,15 +29,15 @@ Recommended at least 1 GB RAM
 #### Physical Setup
 
 Modem <==> WAN <==> LAN <==> Switch
-![](images/setup.png)
+![](_images/setup.png)
 
 #### VLAN
-![](images/vlan.png)
+![](_images/vlan.png)
 Port mapping with a managed Switch
 When to Use VLANs? => When there are more subnets than can be NICs => Managed Switches are expensive
 
 #### WLAN
-![](images/wlan.png)
+![](_images/wlan.png)
 Take Consumer Wireless Routers => Disable Router Functionality
 
 
